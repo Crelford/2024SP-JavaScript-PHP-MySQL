@@ -1,0 +1,51 @@
+ How many levels of normalization are they? 10 levels of normalization.
+What is the minimum level of normalization that should be applied to a table? 3NF
+
+
+
+
+_ID (Primary Key)
+employee_details table
+=============================
+
+Employee_Name
+Department_ID
+Department_Name
+Manager_ID
+Manager_Name
+
+=============================
+
+Employee_Details table:
+===================
+Employee_ID (Primary Key)
+
+Employee_Name
+
+create_dt
+
+================
+
+Department
+================
+
+Department_ID (Primary Key)
+
+Department_Name
+
+create_dt
+
+=============================
+
+
+Manager
+
+=============================
+
+Manager_ID (Primary Key)
+
+Manager_Name
+
+create_dt
+
+=============================
